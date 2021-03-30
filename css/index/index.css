@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.landing-area {
+  padding: 120px 0 140px;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../../images/index/city.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/index/city.png");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.landing-area .welcome {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+}
+
+.landing-area .i {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.landing-area .quote {
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+.landing-area .download-cv-button {
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  padding: 18px 32px 18px 32px;
+  border: 1px solid #fff;
+  background-color: Transparent;
+  color: #fff;
+  outline: none;
+}
+
+.header-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.header-table-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .landing-area {
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .welcome {
+    font-size: 35px;
+  }
+  .landing-area, .i {
+    font-size: 54px;
+  }
+  .quote {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

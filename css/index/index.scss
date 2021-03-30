@@ -1,0 +1,95 @@
+$white-fonts: #fff;
+
+html,
+body {
+    //Makes a section full screen START
+    height: 100%;
+    width: 100%;
+    //Makes a section full screen END -------------
+    padding: 0;
+    margin: 0;
+}
+
+.landing-area {
+    padding: 120px 0 140px;
+    //Makes a section full screen START
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    //Makes a section full screen END -------------
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/index/city.png");
+    // position: relative;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    .welcome {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 0;
+        color: $white-fonts;
+    }
+    .i {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        color: $white-fonts;
+    }
+    .quote {
+        font-size: 15px;
+        font-weight: 300;
+        color: $white-fonts;
+        display: block;
+        max-width: 500px;
+        margin: auto;
+    }
+    .download-cv-button {
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        padding: 18px 32px 18px 32px;
+        border: 1px solid #fff;
+        background-color: Transparent;
+        color: #fff;
+        outline: none;
+    }
+}
+.landing-info {
+    // padding: 120px 0 140px;
+    //centers div vertically and hori START
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    //centers div vertically and hori END --------
+}
+.header-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.header-table-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+@media (min-width: 200px) and (max-width: 768px){
+    .landing-area {
+        height: auto !important;
+    }
+}
+// Media query 990px - START
+@media screen and (min-width: 760px) {
+    .welcome {
+        font-size: 35px;
+    }
+    .landing-area, .i {
+        font-size: 54px;
+    }
+    .quote {
+        font-size: 15px;
+    }
+}
